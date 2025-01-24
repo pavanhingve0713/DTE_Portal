@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\FileUpload\**" />
+    <Compile Remove="Services\OtpGenerate\**" />
+    <Compile Remove="Services\ProfilePic\**" />
+    <Content Remove="Services\FileUpload\**" />
+    <Content Remove="Services\OtpGenerate\**" />
+    <Content Remove="Services\ProfilePic\**" />
+    <EmbeddedResource Remove="Services\FileUpload\**" />
+    <EmbeddedResource Remove="Services\OtpGenerate\**" />
+    <EmbeddedResource Remove="Services\ProfilePic\**" />
+    <None Remove="Services\FileUpload\**" />
+    <None Remove="Services\OtpGenerate\**" />
+    <None Remove="Services\ProfilePic\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.11.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="3.3.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRMS.Business\HRMS.Business.csproj" />
+    <ProjectReference Include="..\HRMS.Data\TechnicalEducationPortal.Data.csproj" />
+    <ProjectReference Include="..\HRMS.Entities\HRMS.Entities.csproj" />
+    <ProjectReference Include="..\HRMS.Infrastructure\HRMS.Infrastructure.csproj" />
+    <ProjectReference Include="..\TechnicalEducationPortal.DAL\TechnicalEducationPortal.DAL.csproj" />
+    <ProjectReference Include="..\TechnicalEducationPortal.Utilities\TechnicalEducationPortal.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,168 @@
+﻿
+
+
+fieldset {
+    border: 2px solid #3F4E4F !important;
+    padding: 20px !important;
+    border-radius: 10px !important;
+}
+
+legend {
+    border: 2px solid #3F4E4F !important;
+    padding: 3px !important;
+    width: auto !important;
+    border-radius: 10px !important;
+    float: initial !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #516BEB !important;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-select, .form-control {
+    border: 1px solid #9DBDFF;
+}
+
+label, .fw-semibold {
+    font-weight: 500;
+}
+
+.header-card {
+    border: 2px solid #98A8F8;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+.header {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.firstcard {
+    border-top: 2px solid #98A8F8;
+    width: 100%;
+    padding: 18px;
+}
+
+.hide-arrow::after {
+    display: none;
+}
+
+thead {
+    background-color: #A5C9CA;
+    /*border-radius:25px !important*/
+    font-weight: bold;
+    color: white !important;
+}
+
+
+
+
+.pagination-outer {
+    text-align: center;
+}
+
+.pagination {
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    position: relative;
+}
+
+    .pagination li a.page-link {
+        color: #42372c;
+        background: transparent;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 35px;
+        height: 35px;
+        width: 35px;
+        padding: 0;
+        margin: 0 4px;
+        border: none;
+        border-radius: 50%;
+        display: block;
+        position: relative;
+        z-index: 0;
+        transition: all 0.1s ease 0s;
+    }
+
+    .pagination li:first-child a.page-link,
+    .pagination li:last-child a.page-link {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .pagination li a.page-link:hover,
+    .pagination li a.page-link:focus,
+    .pagination li.active a.page-link:hover,
+    .pagination li.active a.page-link {
+        color: #000;
+        background: transparent;
+    }
+
+    .pagination li a.page-link:before,
+    .pagination li a.page-link:after {
+        content: '';
+        background: linear-gradient(transparent 50%,#1c9cea 50%);
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        transition: all 0.3s ease 0s;
+    }
+
+    .pagination li a.page-link:after {
+        background: linear-gradient(#e2e2e2,#fff);
+        left: 3px;
+        top: 3px;
+        bottom: 3px;
+        right: 3px;
+    }
+
+    .pagination li a.page-link:hover:before,
+    .pagination li a.page-link:focus:before,
+    .pagination li.active a.page-link:hover:before,
+    .pagination li.active a.page-link:before {
+        background: linear-gradient(transparent 50%,#d61b8e 50%);
+        transform: rotate(180deg);
+    }
+
+    .pagination li a.page-link:hover:after,
+    .pagination li a.page-link:focus:after,
+    .pagination li.active a.page-link:hover:after,
+    .pagination li.active a.page-link:after {
+        transform: rotate(180deg);
+    }
+
+@media only screen and (max-width: 480px) {
+    .pagination {
+        font-size: 0;
+        display: inline-block;
+    }
+
+        .pagination li {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 0 15px;
+        }
+}
+.text {
+    margin-top: 6px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: verdana;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 0 13.36px 8.896px #A594F9,0 -2px 1px #FFB1B1;
+}
+
+

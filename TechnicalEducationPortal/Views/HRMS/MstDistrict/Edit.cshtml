@@ -1,0 +1,135 @@
+﻿@using Newtonsoft.Json
+@model HRMS.Entities.Models.MstDistrict
+@{
+	ViewData["Title"] = "District Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">District Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark h-75" asp-action="Index">Back</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend class="text-primary fw-bold">Edit District</legend>
+			<form asp-action="Edit" class="needs-validation" novalidate>
+				<div class="row">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<input type="hidden" asp-for="DistrictId" />
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="StateId"></label><span style="color:red">*</span>
+							<select asp-for="StateId" asp-items="@ViewBag.StateId" id="StateId" class="form-control">
+								<option value="">--Select--</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DivisionId"></label><span style="color:red">*</span>
+							<select asp-for="DivisionId" asp-items="@ViewBag.DivisionId" id="DivisionId" class="form-control">
+								<option value="">--Select--</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- Division Name in English -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DistrictNameEng" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="DistrictNameEng" class="form-control" placeholder="Enter District Name (In English)" />
+							<span asp-validation-for="DistrictNameEng" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Division Name in Hindi -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DistrictNameHin" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="DistrictNameHin" class="form-control" placeholder="जिले का नाम (हिंदी में)" />
+							<span asp-validation-for="DistrictNameHin" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Division Code -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DistrictCode" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="DistrictCode" class="form-control" placeholder="Enter District Code No." maxlength="2" />
+							<span asp-validation-for="DistrictCode" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- IsActive Checkbox -->
+					<div class="col-md-4 mt-4">
+						<div class="form-check">
+							<input class="form-check-input" asp-for="IsActive" checked />
+							<label asp-for="IsActive" class="form-check-label"></label>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+				<div class="row">
+					<div class="col-md-4">
+						<input type="submit" id="submit-update-btn" value="Update" class="btn btn-outline-success shadow btn-rounded" />
+					</div>
+				</div>
+			</form>
+		</fieldset>
+	</div>
+</div>
+
+<script src="~/js/jquery-3.6.0.min.js"></script>
+<script>
+	// This function is used to dynamically load divisions based on the selected state
+	function loadDivisions() {
+		const stateId = document.getElementById("StateId").value;
+
+		if (stateId) {
+			// Fetch divisions for the selected state using an API or controller action
+			fetch(`/MstDistrict/GetDivisionsByStateId/${stateId}`)
+				.then(response => response.json())
+				.then(data => {
+					const divisionSelect = document.getElementById("DivisionId");
+					divisionSelect.innerHTML = '<option value="">Select Division</option>';
+
+					// Populate divisions dropdown
+					data.forEach(function(division) {
+						const option = document.createElement("option");
+						option.value = division.Value;
+						option.textContent = division.Text;
+						divisionSelect.appendChild(option);
+					});
+				});
+		}
+	}
+</script>
+
+
+
+
+
+
+
+

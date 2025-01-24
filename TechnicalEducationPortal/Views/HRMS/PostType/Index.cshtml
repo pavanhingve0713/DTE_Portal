@@ -1,0 +1,76 @@
+﻿@model IEnumerable<HRMS.Entities.ViewModels.MstPostTypeVM>
+@{
+	ViewData["Title"] = "Post Type Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">Post Type Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Create">Add Post</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend>Post Type Details</legend>
+			<div class="table-responsive">
+				<table class="table postTypetable">
+					<thead>
+						<tr>
+							<th scope="col">Sr. No.</th>
+							<th scope="col">Post Name(In English)</th>
+							<th scope="col">Post Name(In Hindi)</th>
+							<th scope="col">Post Code</th>
+							<th scope="col">Status</th>
+							<th scope="col">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var postType in Model.Select((value, index) => new { value, index }))
+						{
+							<tr>
+								<td>@(postType.index + 1)</td> <!-- Displaying serial number -->
+								<td>@postType.value.PostNameEng</td>
+								<td>@postType.value.PostNameHin</td>
+								<td>@postType.value.PostCode</td>								
+								<td>
+									@if (postType.value.IsActive)
+									{
+										<span class="badge bg-success">Active</span>
+									}
+									else
+									{
+										<span class="badge bg-danger">Inactive</span>
+									}
+								</td>
+								<td>
+									<a href="@Url.Action("Edit", "PostType", new { id = postType.value.TypeOfPostId })" class="btn btn-sm btn-outline-primary">Edit</a>
+
+									
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<link href="~/assets/css/customcss.css" rel="stylesheet" />

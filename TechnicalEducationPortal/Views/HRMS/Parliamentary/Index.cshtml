@@ -1,0 +1,97 @@
+﻿@model IEnumerable<HRMS.Entities.Models.MstParliamentary>
+@{
+	ViewData["Title"] = "State Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">State Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Create">Add State</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend>State Details</legend>
+			<div class="table-responsive">
+				<table class="table Statetable">
+					<thead class="text-nowrap fw-bold">
+						<tr>
+							<th>Sr.No.</th>
+							<th>Parliamentary Name (Eng)</th>
+							<th>Parliamentary Name (Hin)</th>
+							<th>Code</th>
+							<th>Is Active</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var item in Model.Select((value, index) => new { value, index }))
+						{
+							<tr>
+								<td>@(item.index + 1)</td>
+								<td>@item.value.ParliamentaryNameEng</td>
+								<td>@item.value.ParliamentaryNameHin</td>
+								<td>@item.value.ParliamentaryCode</td>
+								<td>
+									@if (item.value.IsActive)
+									{
+										<span class="badge bg-success">Active</span>
+									}
+									else
+									{
+										<span class="badge bg-danger">Inactive</span>
+									}
+								</td>
+								<td>
+									<form asp-action="SoftDelete" method="post" style="display:inline" id="deleteForm">
+										<input type="hidden" name="id" value="@item.value.ParliamentaryId" />
+										<button type="button" class="btn btn-outline-danger btn-sm" onclick="confirmDelete()">Delete</button>
+									</form>
+									<a asp-action="Edit" asp-route-id="@item.value.ParliamentaryId" class="btn btn-outline-primary btn-sm">Edit</a>
+								</td>
+							</tr>
+						}
+
+					</tbody>
+				</table>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<link href="~/assets/css/customcss.css" rel="stylesheet" />
+<script>
+	function confirmDelete() {
+		Swal.fire({
+			title: 'Are you sure?',
+			text: "You won't to Delete Record!",
+			icon: 'warning',
+			showCancelButton: true,
+			confirmButtonColor: '#3085d6',
+			cancelButtonColor: '#d33',
+			confirmButtonText: 'delete!'
+		}).then((result) => {
+			if (result.isConfirmed) {
+				document.getElementById('deleteForm').submit();
+			}
+		});
+	}
+</script>
+

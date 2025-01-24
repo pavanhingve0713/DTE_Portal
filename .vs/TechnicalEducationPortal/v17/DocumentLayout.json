@@ -1,0 +1,312 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|d:\\technicaleducationportal\\technicaleducationportal\\technicaleducationportal\\views\\hrms\\parliamentary\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|solutionrelative:technicaleducationportal\\views\\hrms\\parliamentary\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|d:\\technicaleducationportal\\technicaleducationportal\\technicaleducationportal\\controllers\\hrms\\parliamentarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|solutionrelative:technicaleducationportal\\controllers\\hrms\\parliamentarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}|HRMS.Business\\HRMS.Business.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.business\\masters\\parliamentrybal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}|HRMS.Business\\HRMS.Business.csproj|solutionrelative:hrms.business\\masters\\parliamentrybal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\contract\\iparliamentaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\contract\\iparliamentaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\repository\\parliamentaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\repository\\parliamentaryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\repository\\casterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\repository\\casterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\repository\\boardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\repository\\boardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\contract\\iboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\contract\\iboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4310F3B4-C24D-4B0B-8302-306B7936FC40}|HRMS.Entities\\HRMS.Entities.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.entities\\models\\mstparliamentary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4310F3B4-C24D-4B0B-8302-306B7936FC40}|HRMS.Entities\\HRMS.Entities.csproj|solutionrelative:hrms.entities\\models\\mstparliamentary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|d:\\technicaleducationportal\\technicaleducationportal\\technicaleducationportal\\controllers\\hrms\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|solutionrelative:technicaleducationportal\\controllers\\hrms\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|d:\\technicaleducationportal\\technicaleducationportal\\technicaleducationportal\\controllers\\hrms\\bloodgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|solutionrelative:technicaleducationportal\\controllers\\hrms\\bloodgroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}|HRMS.Business\\HRMS.Business.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.business\\masters\\bloodgroupbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}|HRMS.Business\\HRMS.Business.csproj|solutionrelative:hrms.business\\masters\\bloodgroupbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\repository\\bloodgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\repository\\bloodgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\contract\\ibloodgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\contract\\ibloodgrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|d:\\technicaleducationportal\\technicaleducationportal\\hrms.infrastructure\\contract\\iblockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0545A15-1040-4289-8661-822E38880266}|HRMS.Infrastructure\\HRMS.Infrastructure.csproj|solutionrelative:hrms.infrastructure\\contract\\iblockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|d:\\technicaleducationportal\\technicaleducationportal\\technicaleducationportal\\controllers\\hrms\\statemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CF622A8-0CA3-49D3-995A-05465D7EE52C}|TechnicalEducationPortal\\TechnicalEducationPortal.Web.csproj|solutionrelative:technicaleducationportal\\controllers\\hrms\\statemastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:456262650:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:928770227:0:{81164725-9a96-4ece-a4cb-440d8fd285e5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Views\\HRMS\\Parliamentary\\Create.cshtml",
+              "RelativeDocumentMoniker": "TechnicalEducationPortal\\Views\\HRMS\\Parliamentary\\Create.cshtml",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Views\\HRMS\\Parliamentary\\Create.cshtml",
+              "RelativeToolTip": "TechnicalEducationPortal\\Views\\HRMS\\Parliamentary\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-24T11:11:46.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParliamentryBAL.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Business\\Masters\\ParliamentryBAL.cs",
+              "RelativeDocumentMoniker": "HRMS.Business\\Masters\\ParliamentryBAL.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Business\\Masters\\ParliamentryBAL.cs",
+              "RelativeToolTip": "HRMS.Business\\Masters\\ParliamentryBAL.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:06:19.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IParliamentaryRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IParliamentaryRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Contract\\IParliamentaryRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IParliamentaryRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Contract\\IParliamentaryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T11:05:42.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBoardRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IBoardRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Contract\\IBoardRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IBoardRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Contract\\IBoardRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:48:59.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CasteRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\CasteRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Repository\\CasteRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\CasteRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Repository\\CasteRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:22:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BoardRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\BoardRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Repository\\BoardRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\BoardRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Repository\\BoardRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:17:26.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParliamentaryController.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\ParliamentaryController.cs",
+              "RelativeDocumentMoniker": "TechnicalEducationPortal\\Controllers\\HRMS\\ParliamentaryController.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\ParliamentaryController.cs",
+              "RelativeToolTip": "TechnicalEducationPortal\\Controllers\\HRMS\\ParliamentaryController.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAUwLIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:51:10.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MstParliamentary.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Entities\\Models\\MstParliamentary.cs",
+              "RelativeDocumentMoniker": "HRMS.Entities\\Models\\MstParliamentary.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Entities\\Models\\MstParliamentary.cs",
+              "RelativeToolTip": "HRMS.Entities\\Models\\MstParliamentary.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:29:19.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BloodGroupBAL.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Business\\Masters\\BloodGroupBAL.cs",
+              "RelativeDocumentMoniker": "HRMS.Business\\Masters\\BloodGroupBAL.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Business\\Masters\\BloodGroupBAL.cs",
+              "RelativeToolTip": "HRMS.Business\\Masters\\BloodGroupBAL.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:11:48.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ParliamentaryRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\ParliamentaryRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Repository\\ParliamentaryRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\ParliamentaryRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Repository\\ParliamentaryRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAADwv0MAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:55:16.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IBloodGroupRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IBloodGroupRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Contract\\IBloodGroupRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IBloodGroupRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Contract\\IBloodGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:11:14.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBlockRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IBlockRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Contract\\IBlockRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Contract\\IBlockRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Contract\\IBlockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:11:00Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BloodGroupRepository.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\BloodGroupRepository.cs",
+              "RelativeDocumentMoniker": "HRMS.Infrastructure\\Repository\\BloodGroupRepository.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\HRMS.Infrastructure\\Repository\\BloodGroupRepository.cs",
+              "RelativeToolTip": "HRMS.Infrastructure\\Repository\\BloodGroupRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAvwDEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T10:05:37.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BoardController.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\BoardController.cs",
+              "RelativeDocumentMoniker": "TechnicalEducationPortal\\Controllers\\HRMS\\BoardController.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\BoardController.cs",
+              "RelativeToolTip": "TechnicalEducationPortal\\Controllers\\HRMS\\BoardController.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwLAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:48:53.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BloodGroupController.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\BloodGroupController.cs",
+              "RelativeDocumentMoniker": "TechnicalEducationPortal\\Controllers\\HRMS\\BloodGroupController.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\BloodGroupController.cs",
+              "RelativeToolTip": "TechnicalEducationPortal\\Controllers\\HRMS\\BloodGroupController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwEUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:48:46.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StateMasterController.cs",
+              "DocumentMoniker": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\StateMasterController.cs",
+              "RelativeDocumentMoniker": "TechnicalEducationPortal\\Controllers\\HRMS\\StateMasterController.cs",
+              "ToolTip": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\Controllers\\HRMS\\StateMasterController.cs",
+              "RelativeToolTip": "TechnicalEducationPortal\\Controllers\\HRMS\\StateMasterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-24T09:47:50.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

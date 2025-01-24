@@ -1,0 +1,84 @@
+﻿/*MstState Table CSS*/
+.Statetable tr > td:first-child,
+.Statetable tr > td:nth-child(4),
+.Statetable tr > td:nth-child(5),
+.Statetable tr > td:nth-child(6),
+.Statetable tr > th:first-child,
+.Statetable tr > th:nth-child(4),
+.Statetable tr > th:nth-child(5),
+.Statetable tr > th:nth-child(6) {
+    text-align: center !important;
+}
+/*MstDivision Table Css*/
+.divisiontable{
+    white-space:nowrap;
+}
+.divisiontable tr > td:first-child,
+.divisiontable tr > td:nth-child(5),
+.divisiontable tr > td:nth-child(6),
+.divisiontable tr > td:nth-child(7),
+.divisiontable tr > th:first-child,
+.divisiontable tr > th:nth-child(5),
+.divisiontable tr > th:nth-child(6),
+.divisiontable tr > th:nth-child(7)
+{
+    text-align: center !important;
+}
+.religiontable tr > td:first-child,
+.religiontable tr > td:nth-child(4),
+.religiontable tr > td:nth-child(5),
+.religiontable tr > th:first-child,
+.religiontable tr > th:nth-child(4),
+.religiontable tr > th:nth-child(5)
+{
+    text-align:center;
+}
+.postTypetable tr > td:first-child,
+.postTypetable tr > td:nth-child(4),
+.postTypetable tr > td:nth-child(5),
+.postTypetable tr > th:first-child,
+.postTypetable tr > th:nth-child(4),
+.postTypetable tr > th:nth-child(5) {
+    text-align: center;
+}
+.Districttable tr > td:first-child,
+.Districttable tr > td:nth-child(6),
+.Districttable tr > td:nth-child(7),
+.Districttable tr > td:nth-child(8),
+.Districttable tr > th:first-child,
+.Districttable tr > th:nth-child(6),
+.Districttable tr > th:nth-child(7),
+.Districttable tr > th:nth-child(8)
+{
+    text-align: center;
+}
+.bloodGrouptable tr > td:first-child,
+.bloodGrouptable tr > td:nth-child(2),
+.bloodGrouptable tr > td:nth-child(3),
+.bloodGrouptable tr > td:nth-child(4),
+.bloodGrouptable tr > th:first-child,
+.bloodGrouptable tr > th:nth-child(2),
+.bloodGrouptable tr > th:nth-child(3),
+.bloodGrouptable tr > th:nth-child(4) {
+    text-align: center;
+}
+.designationTypetable tr > td:first-child,
+.designationTypetable tr > td:nth-child(4),
+.designationTypetable tr > td:nth-child(5),
+.designationTypetable tr > td:nth-child(6),
+.designationTypetable tr > th:first-child,
+.designationTypetable tr > th:nth-child(4),
+.designationTypetable tr > th:nth-child(5),
+.designationTypetable tr > th:nth-child(6) {
+    text-align: center;
+}
+.employeeTable tr > td:first-child,
+.employeeTable tr > td:nth-child(6),
+.employeeTable tr > th:first-child,
+.employeeTable tr > th:nth-child(6) {
+    text-align: center;
+}
+.employeeTable tr > th:first-child
+{
+    width:25px;
+}

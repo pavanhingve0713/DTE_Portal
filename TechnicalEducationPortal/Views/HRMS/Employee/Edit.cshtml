@@ -1,0 +1,77 @@
+﻿@model HRMS.Entities.Models.EmployeeInfo
+@{
+    ViewData["Title"] = "Employee Master";
+    Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+    if ("@TempData["Message"]" != "") {
+        window.onload = function () {
+            if ("@TempData["Type"]" == "1") {
+                Swal.fire("Success", "@TempData["Message"]", "success");
+            }
+            if ("@TempData["Type"]" == "2") {
+                Swal.fire("Warning", "@TempData["Message"]", "warning");
+            }
+            if ("@TempData["Type"]" == "3") {
+                Swal.fire("Sorry", "@TempData["Message"]", "error");
+            }
+        }
+    }
+</script>
+<div class="header-card">
+    <div class="row p-3 pb-0">
+        <div class="col-sm-8">
+            <h5 class="text">Employee Master</h5>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+            <a class="btn btn-outline-dark h-75" asp-action="Index">Back</a>
+        </div>
+    </div>
+    <div class="firstcard">
+        <fieldset>
+            <legend class="text-primary fw-bold">Add Employee</legend>
+            <form id="employeeForm" asp-action="Edit" method="post">
+                <input type="hidden" asp-for="EmpId" />
+                <div class="row">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="FirstName" id="FirstName" class="form-control" placeholder="Enter First Name" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="LastName" id="LastName" class="form-control" placeholder="Enter Last Name" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="MobileNo" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="MobileNo" id="MobileNo" class="form-control" placeholder="Enter Mobile No" />
+                            <span asp-validation-for="MobileNo" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Address" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="Address" id="Address" class="form-control" placeholder="Enter Address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>              
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-outline-success shadow btn-rounded">Update</button>
+                    </div>
+                </div>
+               
+            </form>
+        </fieldset>
+    </div>
+</div>
+

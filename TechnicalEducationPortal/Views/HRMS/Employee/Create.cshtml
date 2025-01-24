@@ -1,0 +1,188 @@
+﻿@model HRMS.Entities.ViewModels.EmployeeInfoVM
+@{
+    ViewData["Title"] = "Employee Master";
+    Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+    if ("@TempData["Message"]" != "") {
+        window.onload = function () {
+            if ("@TempData["Type"]" == "1") {
+                Swal.fire("Success", "@TempData["Message"]", "success");
+            }
+            if ("@TempData["Type"]" == "2") {
+                Swal.fire("Warning", "@TempData["Message"]", "warning");
+            }
+            if ("@TempData["Type"]" == "3") {
+                Swal.fire("Sorry", "@TempData["Message"]", "error");
+            }
+        }
+    }
+</script>
+<div class="header-card">
+    <div class="row p-3 pb-0">
+        <div class="col-sm-8">
+            <h5 class="text">Employee Master</h5>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+            <a class="btn btn-outline-dark h-75" asp-action="Index">Back</a>
+        </div>
+    </div>
+    <div class="firstcard">
+        <fieldset>
+            <legend class="text-primary fw-bold">Add Employee</legend>
+            <form id="employeeForm" asp-action="Create" method="post">
+                <div class="row">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="FirstName" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="FirstName" id="FirstName" class="form-control" placeholder="Enter First Name" />
+                            <span asp-validation-for="FirstName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="LastName" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="LastName" id="LastName" class="form-control" placeholder="Enter Last Name" />
+                            <span asp-validation-for="LastName" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="MobileNo" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="MobileNo" id="MobileNo" class="form-control" placeholder="Enter Mobile No" />
+                            <span asp-validation-for="MobileNo" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="Address" class="control-label"></label><span class="text-danger"> *</span>
+                            <input asp-for="Address" id="Address" class="form-control" placeholder="Enter Address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+                <hr />
+                <div class="row">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-outline-primary shadow btn-rounded" onclick="addEmployeeRow()">Add</button>
+                    </div>
+                </div>
+                <div id="tblhide" style="display:none">
+                    <div class="table-responsive mt-4">
+                        <table class="table table-bordered employeeTable" id="employeeTable">
+                            <thead>
+                                <tr>
+                                    <th>Sr.No.</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Mobile No</th>
+                                    <th>Address</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button type="button" class="btn btn-outline-primary shadow btn-rounded" onclick="submitData()">Submit</button>
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" id="employeeDataJson" name="employeeDataJson" />
+            </form>
+        </fieldset>
+
+
+
+    </div>
+</div>
+<link href="~/assets/css/customcss.css" rel="stylesheet" />
+<script>
+    var employeeData = [];
+
+    function addEmployeeRow() {
+        var firstName = document.getElementById("FirstName").value;
+        var lastName = document.getElementById("LastName").value;
+        var mobileNo = document.getElementById("MobileNo").value;
+        var address = document.getElementById("Address").value;
+
+        if (!firstName || !lastName || !mobileNo || !address) {
+            // All fields are required
+            Swal.fire({
+                title: 'Warning',
+                text: 'All fields are required!',
+                icon: 'warning',
+                confirmButtonText: 'OK'
+            });
+            return;
+        }
+
+        var duplicateMobile = employeeData.some(function (emp) {
+            return emp.mobileNo === mobileNo;
+        });
+
+        if (duplicateMobile) {
+            Swal.fire({
+                title: 'Warning',
+                text: 'Mobile number already exists.',
+                icon: 'warning',
+                confirmButtonText: 'OK'
+            });
+            return;
+        }
+
+        // Add new employee to the array
+        employeeData.push({ firstName: firstName, lastName: lastName, mobileNo: mobileNo, address: address });
+
+        // Re-render the table to include serial numbers
+        renderEmployeeTable();
+
+        // Show the div with the table if it's hidden
+        document.getElementById("tblhide").style.display = "block";
+
+        // Clear input fields
+        document.getElementById("FirstName").value = '';
+        document.getElementById("LastName").value = '';
+        document.getElementById("MobileNo").value = '';
+        document.getElementById("Address").value = '';
+    }
+
+    function deleteRow(button) {
+        const row = button.closest('tr');
+        const mobileNo = row.cells[3].innerText; // Corrected index, mobileNo is in the 4th column
+
+        // Remove the employee from the array
+        employeeData = employeeData.filter(function (emp) {
+            return emp.mobileNo !== mobileNo;
+        });
+
+        // Re-render the table to update serial numbers
+        renderEmployeeTable();
+    }
+
+    function renderEmployeeTable() {
+        var tableBody = document.getElementById("employeeTable").getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = ''; // Clear the table body
+
+        employeeData.forEach(function (employee, index) {
+            var newRow = tableBody.insertRow();
+
+            newRow.insertCell(0).innerHTML = index + 1; // Serial Number
+            newRow.insertCell(1).innerHTML = employee.firstName;
+            newRow.insertCell(2).innerHTML = employee.lastName;
+            newRow.insertCell(3).innerHTML = employee.mobileNo;
+            newRow.insertCell(4).innerHTML = employee.address;
+            newRow.insertCell(5).innerHTML = `<button type="button" class="btn btn-danger" onclick="deleteRow(this)">Delete</button>`;
+        });
+    }
+
+    function submitData() {
+        document.getElementById("employeeDataJson").value = JSON.stringify(employeeData);
+        document.getElementById("employeeForm").submit();
+    }
+</script>

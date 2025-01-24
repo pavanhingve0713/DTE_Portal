@@ -1,0 +1,70 @@
+﻿@model IEnumerable<HRMS.Entities.ViewModels.EmployeeInfoVM>
+@{
+	ViewData["Title"] = "Employee Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0"> 
+		<div class="col-sm-8">
+			<h5 class="text">Employee Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Create">Add Employee</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend>Employee Details</legend>
+			<div class="table-responsive">
+				<table class="table employeeTable">
+					<thead style="white-space:nowrap">
+						<tr>
+							<th scope="col">Sr. No.</th>
+							<th scope="col">First Name</th>
+							<th scope="col">Last Name</th>
+							<th scope="col">Mobile No.</th>
+							<th scope="col">Address</th>							
+							<th scope="col">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var employee in Model.Select((value, index) => new { value, index }))
+						{
+							<tr>
+								<td>@(employee.index + 1)</td> <!-- Displaying serial number -->
+								<td>@employee.value.FirstName</td>
+								<td>@employee.value.LastName</td>
+								<td>@employee.value.MobileNo</td>
+								<td>@employee.value.Address</td>
+						
+								<td>
+									<a href="@Url.Action("Edit", "Employee", new { id = employee.value.EmpId })" class="btn btn-sm btn-outline-primary">Edit</a>
+
+									@* <button class="btn btn-outline-danger" type="submit" onclick="deleteemployee(@employee.value.employeeId)">
+								<i class="fa fa-trash"></i>
+								</button> *@
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<link href="~/assets/css/customcss.css" rel="stylesheet" />

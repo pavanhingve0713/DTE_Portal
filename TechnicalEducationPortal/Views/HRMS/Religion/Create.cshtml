@@ -1,0 +1,76 @@
+﻿@model HRMS.Entities.Models.MstReligion
+@{
+	ViewData["Title"] = "Religion Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">Religion Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Index">Back</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend class="text-primary fw-bold">Add Religion</legend>
+			<form asp-action="Create" method="post">
+				<div class="row">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+					<!-- Division Name in English -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="ReligionNameEng" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="ReligionNameEng" class="form-control" placeholder="Enter Religion Name in English" />
+							<span asp-validation-for="ReligionNameEng" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Division Name in Hindi -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="ReligionNameHin" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="ReligionNameHin" class="form-control" placeholder="Enter Religion Name in Hindi" />
+							<span asp-validation-for="ReligionNameHin" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- IsActive Checkbox -->
+					<div class="col-md-4 mt-4">
+						<div class="form-check">
+							<input class="form-check-input" asp-for="IsActive" checked />
+							<label asp-for="IsActive" class="form-check-label"></label>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+				<div class="row">
+					<!-- Submit and Clear Buttons -->
+					<div class="col-md-4">
+						<button type="submit" class="btn btn-outline-primary shadow btn-rounded">Save</button>
+						<a asp-action="Create" class="btn btn-outline-danger shadow btn-rounded">Clear</a>
+					</div>
+				</div>
+			</form>
+		</fieldset>
+	</div>
+
+</div>

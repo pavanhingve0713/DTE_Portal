@@ -1,0 +1,14 @@
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\bin\Debug\net8.0\HRMS.Data.deps.json
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\bin\Debug\net8.0\HRMS.Data.runtimeconfig.json
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\bin\Debug\net8.0\HRMS.Data.dll
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\bin\Debug\net8.0\HRMS.Data.pdb
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.csproj.AssemblyReference.cache
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.AssemblyInfoInputs.cache
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.AssemblyInfo.cs
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.csproj.CoreCompileInputs.cache
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.dll
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\refint\HRMS.Data.dll
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.pdb
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\HRMS.Data.genruntimeconfig.cache
+D:\CoreProjectPractice\TechnicalEducationPortal\HRMS.Data\obj\Debug\net8.0\ref\HRMS.Data.dll

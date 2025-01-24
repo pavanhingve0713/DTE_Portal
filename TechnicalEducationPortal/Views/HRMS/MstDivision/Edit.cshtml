@@ -1,0 +1,96 @@
+﻿@model HRMS.Entities.Models.MstDivision
+@{
+    ViewData["Title"] = "Division Master";
+    Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+    if ("@TempData["Message"]" != "") {
+        window.onload = function () {
+            if ("@TempData["Type"]" == "1") {
+                Swal.fire("Success", "@TempData["Message"]", "success");
+            }
+            if ("@TempData["Type"]" == "2") {
+                Swal.fire("Warning", "@TempData["Message"]", "warning");
+            }
+            if ("@TempData["Type"]" == "3") {
+                Swal.fire("Sorry", "@TempData["Message"]", "error");
+            }
+        }
+    }
+</script>
+<div class="header-card">
+    <div class="row p-3 pb-0">
+        <div class="col-sm-8">
+            <h5 class="text">Division Master</h5>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+            <a class="btn btn-outline-dark h-75" asp-action="Index">Back</a>
+        </div>
+    </div>
+    <div class="firstcard">
+        <fieldset>
+            <legend class="text-primary fw-bold">Edit Division</legend>
+            <form asp-action="Edit" method="post">
+                <div class="row">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="DivisionId" />
+                    <!-- State Selection -->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="StateId" class="control-label">State</label><span class="text-danger"> *</span>
+                            <select asp-for="StateId" asp-items="ViewBag.mstStateList" class="form-select">
+                                <option>--Select--</option>
+                            </select>
+
+                            <span asp-validation-for="StateId" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Division Name in English -->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="DivisionNameEng" class="control-label">Division Name (English)</label><span class="text-danger"> *</span>
+                            <input asp-for="DivisionNameEng" class="form-control" placeholder="Enter Division Name (In English)" />
+                            <span asp-validation-for="DivisionNameEng" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Division Name in Hindi -->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="DivisionNameHin" class="control-label">Division Name (Hindi)</label><span class="text-danger"> *</span>
+                            <input asp-for="DivisionNameHin" class="form-control" placeholder="संभाग का नाम (हिंदी में)" />
+                            <span asp-validation-for="DivisionNameHin" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- Division Code -->
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="DivisionCode" class="control-label">Division Code</label><span class="text-danger"> *</span>
+                            <input asp-for="DivisionCode" class="form-control" placeholder="Enter Division Code No." maxlength="2" />
+                            <span asp-validation-for="DivisionCode" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <!-- IsActive Checkbox -->
+                    <div class="col-md-4 mt-4">
+                        <div class="form-check">
+                            <input class="form-check-input" asp-for="IsActive" checked />
+                            <label asp-for="IsActive" class="form-check-label">Active</label>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+                <div class="row">
+                    <!-- Submit Button -->
+                    <div class="col-md-4">
+                        <input type="submit" id="submit-update-btn" value="Update" class="btn btn-outline-success shadow btn-rounded" />
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+  
+</div>

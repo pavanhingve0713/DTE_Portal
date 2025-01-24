@@ -1,0 +1,82 @@
+﻿@model IEnumerable<HRMS.Entities.ViewModels.MstDistrictVM>
+@{
+	ViewData["Title"] = "District Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">District Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Create">Add District</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend>District Details</legend>
+			<div class="table-responsive">
+				<table class="table Districttable">
+					<thead>
+						<tr>
+							<th scope="col">Sr. No.</th>
+							<th scope="col">State Name</th>
+							<th scope="col">Division Name</th>
+							<th scope="col">District Name<br /> (English)</th>
+							<th scope="col">District Name<br /> (Hindi)</th>
+							<th scope="col">District<br /> Code No.</th>
+							<th scope="col">Status</th>
+							<th scope="col">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var district in Model.Select((value, index) => new { value, index }))
+						{
+							<tr>
+								<td>@(district.index + 1)</td>
+								<td>@district.value.StateNameEng</td>
+								<td>@district.value.DivisionNameEng</td>
+								<td>@district.value.DistrictNameEng</td>
+								<td>@district.value.DistrictNameHin</td>
+								<td>@district.value.DistrictCode</td>
+								<td>
+									@if (district.value.IsActive)
+									{
+										<span class="badge bg-success">Active</span>
+									}
+									else
+									{
+										<span class="badge bg-danger">Inactive</span>
+									}
+								</td>
+								<td>
+									<a href="@Url.Action("Edit", "MstDistrict", new { id = district.value.DistrictId })" class="btn btn-sm btn-outline-primary">Edit</a>
+
+									@* <button class="btn btn-outline-danger" type="submit" onclick="deleteDistrict(@District.value.DistrictId)">
+										<i class="fa fa-trash"></i>
+									</button> *@
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<link href="~/assets/css/customcss.css" rel="stylesheet" />

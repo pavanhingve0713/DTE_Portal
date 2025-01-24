@@ -1,0 +1,152 @@
+﻿@model HRMS.Entities.Models.MstDistrict
+@{
+	ViewData["Title"] = "District Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">District Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark h-75" asp-action="Index">Back</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend class="text-primary fw-bold">Add District</legend>
+			<form asp-action="Create" class="needs-validation" novalidate>
+				<div class="row">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+					<!-- State Selection -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="StateId"></label><span style="color:red">*</span>
+							<select asp-for="StateId" asp-items="@ViewBag.StateId" id="StateId" class="form-control">
+								<option value="">--Select--</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- Division Selection -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DivisionId"></label><span style="color:red">*</span>
+							<select asp-for="DivisionId" class="form-control" id="DivisionId">
+								<option value="">--Select--</option>
+							</select>
+						</div>
+					</div>
+
+					<!-- Division Name in English -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DistrictNameEng" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="DistrictNameEng" class="form-control" placeholder="Enter District Name (In English)" />
+							<span asp-validation-for="DistrictNameEng" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Division Name in Hindi -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DistrictNameHin" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="DistrictNameHin" class="form-control" placeholder="जिले का नाम (हिंदी में)" />
+							<span asp-validation-for="DistrictNameHin" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- Division Code -->
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="DistrictCode" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="DistrictCode" class="form-control" placeholder="Enter District Code No." maxlength="2" />
+							<span asp-validation-for="DistrictCode" class="text-danger"></span>
+						</div>
+					</div>
+
+					<!-- IsActive Checkbox -->
+					<div class="col-md-4 mt-4">
+						<div class="form-check">
+							<input class="form-check-input" asp-for="IsActive" checked />
+							<label asp-for="IsActive" class="form-check-label"></label>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+				<div class="row">
+					<!-- Submit and Clear Buttons -->
+					<div class="col-md-4">
+						<button type="submit" class="btn btn-outline-primary shadow btn-rounded">Save</button>
+						<a asp-action="Create" class="btn btn-outline-danger shadow btn-rounded">Clear</a>
+					</div>
+				</div>
+			</form>
+		</fieldset>
+	</div>
+</div>
+
+<script src="~/js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		// Handle State change
+		$('#StateId').change(function () {
+			var stateId = $(this).val();
+			var divisionDropdown = $('#DivisionId');
+
+			// Clear and reset the Division dropdown
+			divisionDropdown.empty();
+			divisionDropdown.append('<option value="">--Select--</option>');
+
+			if (stateId) {
+				// Make AJAX request to fetch divisions based on selected state
+				$.ajax({
+					url: '/MstDistrict/GetAllDivisions',
+					type: 'GET',
+					data: { stateId: stateId },
+					success: function (response) {
+						console.log(response);  // Log the response for debugging
+
+						if (response.success && response.data.length > 0) {
+							// Populate the division dropdown
+							$.each(response.data, function (index, division) {
+								console.log(division);  // Log each division object for debugging
+
+								// If diviscode is null, handle gracefully
+								var diviscodeText = division.diviscode ? division.diviscode : "Code: N/A";
+								var displayText = diviscodeText + " - " + division.text ;
+
+								// Create new option with division name and code
+								var newOption = $("<option>").val(division.value).text(displayText);
+								divisionDropdown.append(newOption);
+							});
+						} else {
+							alert('No divisions available.');
+						}
+					},
+					error: function (xhr, status, error) {
+						console.error("AJAX Error:", error);
+						alert('An error occurred while fetching divisions.');
+					}
+				});
+			}
+		});
+	});
+</script>

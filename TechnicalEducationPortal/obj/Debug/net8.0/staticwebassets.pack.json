@@ -1,0 +1,741 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TechnicalEducationPortal.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TechnicalEducationPortal.Web.hjaqnlzkob.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\CustomCss.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\CustomCss.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Assets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\demo.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\demo.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\site.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\css\\sweetalert2.css",
+      "PackagePath": "staticwebassets\\Assets\\css\\sweetalert2.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\Assets\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\Assets\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\illustrations\\man-with-laptop.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\illustrations\\man-with-laptop.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\Assets\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\config.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\config.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\jquery.min.map",
+      "PackagePath": "staticwebassets\\Assets\\js\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\site.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\sweetalert2.all.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\sweetalert2.all.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\ui-modals.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\ui-popover.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\Assets\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\js\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\js\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\Assets\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\Assets\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\dist\\AlertMessages.js",
+      "PackagePath": "staticwebassets\\dist\\AlertMessages.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\dist\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\dist\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\dist\\sweetalert_1.1.3.min.css",
+      "PackagePath": "staticwebassets\\dist\\sweetalert_1.1.3.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\DTELogojpgfevicon-removebg.png",
+      "PackagePath": "staticwebassets\\images\\DTELogojpgfevicon-removebg.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\MPHED_LIGHTText.png",
+      "PackagePath": "staticwebassets\\images\\MPHED_LIGHTText.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\MPHED_logo.png",
+      "PackagePath": "staticwebassets\\images\\MPHED_logo.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\like.png",
+      "PackagePath": "staticwebassets\\images\\like.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\logo-text.png",
+      "PackagePath": "staticwebassets\\images\\logo-text.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\no-img-avatar.png",
+      "PackagePath": "staticwebassets\\images\\no-img-avatar.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\qr.png",
+      "PackagePath": "staticwebassets\\images\\qr.png"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\images\\schoolCurriculum.jpg",
+      "PackagePath": "staticwebassets\\images\\schoolCurriculum.jpg"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\js\\Dropdowns.js",
+      "PackagePath": "staticwebassets\\js\\Dropdowns.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\js\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TechnicalEducationPortal\\TechnicalEducationPortal\\TechnicalEducationPortal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TechnicalEducationPortal.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TechnicalEducationPortal.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TechnicalEducationPortal.Web.props",
+      "PackagePath": "build\\TechnicalEducationPortal.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TechnicalEducationPortal.Web.props",
+      "PackagePath": "buildMultiTargeting\\TechnicalEducationPortal.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TechnicalEducationPortal.Web.props",
+      "PackagePath": "buildTransitive\\TechnicalEducationPortal.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,80 @@
+﻿@model IEnumerable<HRMS.Entities.ViewModels.MstBlockVM>
+@{
+	ViewData["Title"] = "Block Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">Block Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Create">Add Block</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend>Block Details</legend>
+			<div class="table-responsive">
+				<table class="table blocktable">
+					<thead>
+						<tr>
+							<th scope="col">Sr. No.</th>
+							<th scope="col">State Name</th>
+							<th scope="col">Division Name</th>
+							<th scope="col">District Name</th>
+							<th scope="col">Block Name<br /> (English)</th>
+							<th scope="col">Block Name<br /> (Hindi)</th>
+							<th scope="col">Block<br /> Code No.</th>
+							<th scope="col">Status</th>
+							<th scope="col">Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						@foreach (var block in Model.Select((value, index) => new { value, index }))
+						{
+							<tr>
+								<td>@(block.index + 1)</td>
+								<td>@block.value.StateNameEng</td>
+								<td>@block.value.DivisionNameEng</td>
+								<td>@block.value.DistrictNameEng</td>
+								<td>@block.value.BlockNameEng</td>
+								<td>@block.value.BlockNameHin</td>
+								<td>@block.value.BlockCode</td>
+								<td>
+									@if (block.value.IsActive)
+									{
+										<span class="badge bg-success">Active</span>
+									}
+									else
+									{
+										<span class="badge bg-danger">Inactive</span>
+									}
+								</td>
+								<td>
+									<a asp-action="Edit" asp-route-id="@block.value.BlockId" class="btn btn-sm btn-outline-primary">Edit</a>
+								</td>
+							</tr>
+						}
+					</tbody>
+				</table>
+			</div>
+		</fieldset>
+	</div>
+</div>
+<link href="~/assets/css/customcss.css" rel="stylesheet" />

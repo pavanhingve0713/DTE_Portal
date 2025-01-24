@@ -1,0 +1,236 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.PublishSingleFile = 
+build_property.PublishSingleFile = 
+build_property.PublishSingleFile = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.RootNamespace = TechnicalEducationPortal.Web
+build_property.RootNamespace = TechnicalEducationPortal.Web
+build_property.ProjectDir = D:\TechnicalEducationPortal\TechnicalEducationPortal\TechnicalEducationPortal\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\TechnicalEducationPortal\TechnicalEducationPortal\TechnicalEducationPortal
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Block/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCbG9ja1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Block/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCbG9ja1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/BloodGroup/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCbG9vZEdyb3VwXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/BloodGroup/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCbG9vZEdyb3VwXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/BloodGroup/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCbG9vZEdyb3VwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Board/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCb2FyZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Board/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCb2FyZFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Board/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xCb2FyZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Caste/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xDYXN0ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Caste/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xDYXN0ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Caste/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xDYXN0ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/DesignationType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xEZXNpZ25hdGlvblR5cGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/DesignationType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xEZXNpZ25hdGlvblR5cGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/DesignationType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xEZXNpZ25hdGlvblR5cGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xFbXBsb3llZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xFbXBsb3llZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xFbXBsb3llZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/MstDistrict/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xNc3REaXN0cmljdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/MstDistrict/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xNc3REaXN0cmljdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/MstDistrict/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xNc3REaXN0cmljdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/MstDivision/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xNc3REaXZpc2lvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/MstDivision/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xNc3REaXZpc2lvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/MstDivision/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xNc3REaXZpc2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Parliamentary/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xQYXJsaWFtZW50YXJ5XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Parliamentary/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xQYXJsaWFtZW50YXJ5XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Parliamentary/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xQYXJsaWFtZW50YXJ5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/PostType/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xQb3N0VHlwZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/PostType/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xQb3N0VHlwZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/PostType/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xQb3N0VHlwZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Religion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xSZWxpZ2lvblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Religion/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xSZWxpZ2lvblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/Religion/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xSZWxpZ2lvblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/StateMaster/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xTdGF0ZU1hc3RlclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/StateMaster/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xTdGF0ZU1hc3RlclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/HRMS/StateMaster/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSFJNU1xTdGF0ZU1hc3RlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/Shared/_MainMaster.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTWFzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TechnicalEducationPortal/TechnicalEducationPortal/TechnicalEducationPortal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-70mvl8u830

@@ -1,0 +1,90 @@
+﻿@model HRMS.Entities.Models.MstParliamentary
+@{
+    ViewData["Title"] = "Parliamentary Master";
+    Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+    if ("@TempData["Message"]" != "") {
+        window.onload = function () {
+            if ("@TempData["Type"]" == "1") {
+                Swal.fire("Success", "@TempData["Message"]", "success");
+            }
+            if ("@TempData["Type"]" == "2") {
+                Swal.fire("Warning", "@TempData["Message"]", "warning");
+            }
+            if ("@TempData["Type"]" == "3") {
+                Swal.fire("Sorry", "@TempData["Message"]", "error");
+            }
+        }
+    }
+</script>
+<div class="header-card">
+    <div class="row p-3 pb-0">
+        <div class="col-sm-8">
+            <h5 class="text">Parliamentary Master</h5>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-end">
+            <a class="btn btn-outline-dark  h-75 " asp-action="Index">Back</a>
+        </div>
+    </div>
+    <div class="firstcard">
+        <fieldset>
+            <legend>
+                Add Parliamentary
+            </legend>
+            <form asp-action="Edit">
+                <div class="row">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="ParliamentaryId" />
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="ParliamentaryNameEng" class="control-label"></label><span style="color: red;">*</span>
+                            <input asp-for="ParliamentaryNameEng" class="form-control" />
+
+                            <span asp-validation-for="ParliamentaryNameEng" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="ParliamentaryNameHin" class="control-label"></label><span style="color: red;">*</span>
+                            <input asp-for="ParliamentaryNameHin" class="form-control" />
+                            <span asp-validation-for="ParliamentaryNameHin" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label asp-for="ParliamentaryCode" class="control-label"></label><span style="color: red;">*</span>
+                            <input asp-for="ParliamentaryCode" class="form-control" />
+                            <span asp-validation-for="ParliamentaryCode" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mt-4">
+                        <div class="form-group form-check">
+                            <label class="form-check-label">
+                                <input class="form-check-input" checked="checked" asp-for="IsActive" />
+                                <input style="display:none" class="form-check-input" checked="checked" asp-for="IsDelete" />
+                                <label asp-for="IsActive">IsActive</label>
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="" />
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <input type="submit" value="Save" id="submit-btn" class="btn btn-outline-primary shadow btn-rounded" />
+                            <a asp-action="Create" class="btn btn-outline-danger shadow btn-rounded">Clear</a>
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </fieldset>
+    </div>
+</div>
+
+

@@ -1,0 +1,85 @@
+﻿@model HRMS.Entities.Models.MstPostType
+@{
+	ViewData["Title"] = "Post Type Master";
+	Layout = "~/Views/Shared/_MainMaster.cshtml";
+}
+<script>
+	if ("@TempData["Message"]" != "") {
+		window.onload = function () {
+			if ("@TempData["Type"]" == "1") {
+				Swal.fire("Success", "@TempData["Message"]", "success");
+			}
+			if ("@TempData["Type"]" == "2") {
+				Swal.fire("Warning", "@TempData["Message"]", "warning");
+			}
+			if ("@TempData["Type"]" == "3") {
+				Swal.fire("Sorry", "@TempData["Message"]", "error");
+			}
+		}
+	}
+</script>
+<div class="header-card">
+	<div class="row p-3 pb-0">
+		<div class="col-sm-8">
+			<h5 class="text">Post Type Master</h5>
+		</div>
+		<div class="col-sm-4 d-flex justify-content-end">
+			<a class="btn btn-outline-dark  h-75 " asp-action="Index">Back</a>
+		</div>
+	</div>
+	<div class="firstcard">
+		<fieldset>
+			<legend class="text-primary fw-bold">Add Post Type</legend>
+			<form asp-action="Create" method="post">
+				<div class="row">
+					<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+					<input type="hidden" asp-for="CreatedBy" value="0" />
+					<input type="hidden" asp-for="IPAddress" value="0" />
+					<input type="hidden" asp-for="LastUpdatedBy" value="0" />
+					
+				
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="PostNameEng" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="PostNameEng" class="form-control" placeholder="Enter Religion Name in English" />
+							<span asp-validation-for="PostNameEng" class="text-danger"></span>
+						</div>
+					</div>
+
+		
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="PostNameHin" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="PostNameHin" class="form-control" placeholder="Enter Religion Name in Hindi" />
+							<span asp-validation-for="PostNameHin" class="text-danger"></span>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="form-group">
+							<label asp-for="PostCode" class="control-label"></label><span class="text-danger"> *</span>
+							<input asp-for="PostCode" class="form-control" placeholder="Enter Religion Name in Hindi" />
+							<span asp-validation-for="PostCode" class="text-danger"></span>
+						</div>
+					</div>
+
+					<div class="col-md-4 mt-4">
+						<div class="form-check">
+							<input class="form-check-input" asp-for="IsActive" checked />
+							<label asp-for="IsActive" class="form-check-label"></label>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+				<div class="row">
+					<!-- Submit and Clear Buttons -->
+					<div class="col-md-4">
+						<button type="submit" class="btn btn-outline-primary shadow btn-rounded">Save</button>
+						<a asp-action="Create" class="btn btn-outline-danger shadow btn-rounded">Clear</a>
+					</div>
+				</div>
+			</form>
+		</fieldset>
+	</div>
+
+</div>
