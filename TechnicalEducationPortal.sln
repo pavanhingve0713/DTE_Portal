@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalEducationPortal.Web", "TechnicalEducationPortal\TechnicalEducationPortal.Web.csproj", "{7CF622A8-0CA3-49D3-995A-05465D7EE52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Entities", "HRMS.Entities\HRMS.Entities.csproj", "{4310F3B4-C24D-4B0B-8302-306B7936FC40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Infrastructure", "HRMS.Infrastructure\HRMS.Infrastructure.csproj", "{F0545A15-1040-4289-8661-822E38880266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalEducationPortal.Data", "HRMS.Data\TechnicalEducationPortal.Data.csproj", "{A904C1B4-C008-4EF9-B359-BE40280B6717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRMS.Business", "HRMS.Business\HRMS.Business.csproj", "{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalEducationPortal.DAL", "TechnicalEducationPortal.DAL\TechnicalEducationPortal.DAL.csproj", "{CBBE3460-B8F6-4DD2-B6F4-7FD9B58C1269}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechnicalEducationPortal.Utilities", "TechnicalEducationPortal.Utilities\TechnicalEducationPortal.Utilities.csproj", "{09B93CA2-365C-4A98-BC62-B0BDE4CFE255}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CF622A8-0CA3-49D3-995A-05465D7EE52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF622A8-0CA3-49D3-995A-05465D7EE52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF622A8-0CA3-49D3-995A-05465D7EE52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF622A8-0CA3-49D3-995A-05465D7EE52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4310F3B4-C24D-4B0B-8302-306B7936FC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4310F3B4-C24D-4B0B-8302-306B7936FC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4310F3B4-C24D-4B0B-8302-306B7936FC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4310F3B4-C24D-4B0B-8302-306B7936FC40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0545A15-1040-4289-8661-822E38880266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0545A15-1040-4289-8661-822E38880266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0545A15-1040-4289-8661-822E38880266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0545A15-1040-4289-8661-822E38880266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A904C1B4-C008-4EF9-B359-BE40280B6717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A904C1B4-C008-4EF9-B359-BE40280B6717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A904C1B4-C008-4EF9-B359-BE40280B6717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A904C1B4-C008-4EF9-B359-BE40280B6717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A80AC6-4DE7-48E6-B23A-2CB05DFA68F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBBE3460-B8F6-4DD2-B6F4-7FD9B58C1269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBBE3460-B8F6-4DD2-B6F4-7FD9B58C1269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBBE3460-B8F6-4DD2-B6F4-7FD9B58C1269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBBE3460-B8F6-4DD2-B6F4-7FD9B58C1269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B93CA2-365C-4A98-BC62-B0BDE4CFE255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B93CA2-365C-4A98-BC62-B0BDE4CFE255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B93CA2-365C-4A98-BC62-B0BDE4CFE255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B93CA2-365C-4A98-BC62-B0BDE4CFE255}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
